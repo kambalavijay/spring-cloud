@@ -1,6 +1,6 @@
 # Spring Cloud examples by HowToDoInJava.com
 
-This repository hosts the projects and their source codes written for various tutorials written in [howtodoinjava.com](https://howtodoinjava.com/).
+This repository hosts the projects and their source code
 
 ## Development Environment
 
@@ -8,8 +8,13 @@ This repository hosts the projects and their source codes written for various tu
 * Spring Cloud [Hoxton.RELEASE]
 * Maven 4
 * JDK 8
-* Eclipse Photon
+* Intellij
 
-## Related Tutorials
+Add -Dspring.profiles.active=test to VM Options and then re-ran that configuration.
 
-1. [Spring Cloud Config Server with Git Integration](https://howtodoinjava.com/spring-cloud/spring-cloud-config-server-git/)
+This can be set by
+
+Choosing Run | Edit Configurations...
+Go to the Configuration tab
+Expand the Environment section to reveal VM options
+
